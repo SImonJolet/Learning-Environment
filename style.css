@@ -9,13 +9,18 @@
 #Titres{
   text-align: center;
 }
+#Entête{
+  text-align: center;
+}
 body {
-  background-color: #3079FF
+  background-color: #3079FF;
+  font-family: "Raleway", cursive;
+
 }
 
 .section{
-  border:1px solid #2C3CE8
-  background-color: #FFF
-  padding: 100px
-  margin-bottom: 150px
+  border:1px solid #2C3CE8;
+  background-color: #FFF;
+  padding: 100px;
+  margin-bottom: 25px;
 }
