@@ -1,0 +1,21 @@
+#README {
+  text-align: center;
+}
+
+#Tableaux {
+  text-align: center;
+}
+
+#Titres{
+  text-align: center;
+}
+body {
+  background-color: #C0CBEC
+}
+
+.section{
+  border:1px solid #2C3CE8
+  background-color: #FFF
+  padding: 10px
+  margin-bottom: 15px
+}
