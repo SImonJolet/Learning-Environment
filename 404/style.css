@@ -1,1 +1,46 @@
-*
+body{
+  font-family: 'Indie Flower', cursive;
+  background-color: #F9F5F4;
+  font-size: 25pt;
+}
+span{
+  font-size: 70pt;
+}
+.section{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.image{
+  padding-right: 100px;
+  padding-bottom: 200px;
+  text-align: right;
+}
+.bouton{
+  border-radius: 20px;
+  border: 10px solid #000;
+  width: 350px;
+  padding-left: 100px;
+
+}
+.sectionbas{
+  display: flex;
+}
+p{
+  animation-duration: 5s;
+  animation-delay: 0;
+  animation-name: text;
+  animation-iteration-count: 1;
+
+}
+@keyframes text {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
