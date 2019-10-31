@@ -3,61 +3,81 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.section-haut{
-  display:flex;
+.section-haut {
+  display: flex;
 }
-#pointderécolte{
+#pointderécolte {
   text-align: justify;
 }
-#moyen{
+#moyen {
   text-align: justify;
 }
-#récolte{
+#récolte {
   list-style-image: url(https://img.icons8.com/color/24/000000/the-birth-of-venus.png);
   list-style-position: inside;
   text-align: center;
 }
-#header{
+#header {
   flex-grow: 1;
   background-image: url(https://www.60millions-mag.com/sites/default/files/styles/asset_image_manually_resized/public/assets/images/hd-istock-156215201_0.jpg?itok=e1cNlXV1&c=7d990ebd60e36678dddcce5c2eddf3e2);
-background-size:100% 100%;
-font-size: 25pt;
-  }
-#logo{
+  background-size: 100% 100%;
+  font-size: 25pt;
+}
+#logo {
   flex-grow: 0;
 }
-#menu{
+#menu {
   text-align: center;
   font-size: 20pt;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #0913ff;
+  font-size: 120%;
+}
+#menu a {
+  text-decoration: none;
+  color: #7dc8ff;
+}
+
+#menu a:hover {
+  color: #0913ff;
+  font-size: 120%;
+}
 h2 {
   text-align: center;
+  padding-bottom: 1vw;
 }
-#but{
+#but {
   text-align: justify;
 }
-.quote{
+.quote {
   text-align: right;
   font-size: 10pt;
 }
-table{
+table {
   text-align: center;
   width: 100%;
   font-size: 15pt;
 }
-.section{
-  border: 2px solid #0913FF;
-  background-color: #F0FAFA;
+.section {
+  border: 2px solid #0913ff;
+  background-color: #f0fafa;
   padding: 25px;
   margin: 10px;
   font-size: 15pt;
   border-radius: 50px;
-
 }
-body{
-  background-color: #7DC8FF;
+.partnerList {
+  padding-left: 3vw;
+}
+body {
+  background-color: #7dc8ff;
   font-family: Raleway, sans-serif;
 }
-#footer{
+#footer {
   font-size: 8pt;
 }
